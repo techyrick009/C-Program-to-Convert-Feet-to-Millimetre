@@ -1,0 +1,32 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include 
+//#include 
+
+void main() {
+
+  float mm;
+  float feet;
+  
+
+//    clrscr();
+
+	printf(" Program to convert Feet to Millimeter:  ");
+
+	printf("\n\n Enter Length in Feet  : ");
+	scanf("%f", &feet);
+    
+    mm = (feet/3.26)*1000;
+    
+    printf("\n\n %f Feet in Millimeter = %f  \n",feet,mm);
+
+
+
+//	getch();
+
+
+}
+
